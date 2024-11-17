@@ -1,7 +1,7 @@
 import algopro from "../assets/project/algopro.svg";
 import gourmet from "../assets/project/gourmet.svg";
 import prepwise from "../assets/project/prepwise.svg";
-import voyagevault from "../assets/project/voyagevault.svg";
+import VoyageVault from "../assets/project/VoyageVault.svg";
 import lipreader from "../assets/project/lipreader.svg";
 import blogspot from "../assets/project/blogspot.svg";
 import musicgenre from "../assets/project/musicgenre.svg";
@@ -87,7 +87,7 @@ export const PROJECTS = [
     github: "https://github.com/aastha2003gupta/PrepWise",
   },
   {
-    img: voyagevault,
+    img: VoyageVault,
     title: "Voyage Vault",
     description:
       "AI-powered travel app with top attractions, itinerary planning, language translation, expense tracking, and currency conversion.",
