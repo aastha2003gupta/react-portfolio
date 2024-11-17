@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="flex items-center justify-between lg:py-1 px-1 md:px-1 lg:px-1 mb-20">
       {/* Left Side (Logo or Name if needed) */}
       <div className="flex items-center">
-        <img src={LOGO_AG} alt="Aastha Gupta Logo" className="h-12 lg:h-12" />
+        <img src={LOGO_AG} alt="Aastha Gupta Logo" className="h-13 lg:h-13" />
       </div>
 
       {/* Right Side (Social Icons) */}

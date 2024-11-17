@@ -4,7 +4,7 @@ import { AiOutlineMail, AiOutlinePhone, AiOutlineEnvironment, AiOutlineDownload 
 
 const Contact = () => {
   return (
-    <div className="border-b border-neutral-900 pb-16">
+    <div className="border-b border-neutral-900 pb-8">
       <motion.h1
        whileInView={{opacity:1,y:0}}
        initial={{opacity:0,y:-100}}
@@ -44,8 +44,8 @@ const Contact = () => {
         {/* Download CV Section */}
         <div className="mt-4 flex justify-center">
           <motion.a
-            href="/path/to/your-cv.pdf" // Update this path to your actual CV file
-            download="Aastha_Gupta_CV"
+            href="src\assets\AasthaGupta_August.pdf" // Update this path to your actual CV file
+            download="AasthaGupta_CV"
             className="bg-black bg-opacity-10 text-gray-300 hover:bg-purple-600 transition-all duration-300 flex items-center gap-2 py-2 px-6 rounded-full shadow-lg"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}

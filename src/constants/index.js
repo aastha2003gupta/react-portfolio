@@ -11,6 +11,9 @@ import budgetbuddy from "../assets/project/budget_buddy.svg";
 import captionme from "../assets/project/captionme.svg";
 import todo from "../assets/project/todo.svg";
 import sentiment from "../assets/project/sentiment.svg";
+import blackbox from "../assets/blog/blackbox.svg";
+import typo from "../assets/blog/typo.svg";
+
 
 export const HERO_CONTENT = `A passionate Computer Science student delving into Machine Learning, Data Science, and Web Development. Enthusiastic about turning data into insights, and ideas into impactful solutions. Let’s explore the tech cosmos together and transform challenges into opportunities for growth!`;
 
@@ -166,6 +169,21 @@ export const PROJECTS = [
     github: "https://github.com/aastha2003gupta/sentiment-analyzer",
   },
 ];
+
+export const BLOGS =  [
+    {
+      img:blackbox,
+      title: "Typography and its Impact on Graphic Design",
+      link: "https://medium.com/gdg-vit/typography-and-its-impact-on-graphic-design-a1bf3bdd62a0",
+      description: "Uncover the influential role of typography in graphic design, delving into its transformative impact on visual communication through an insightful blog."
+    },
+    {
+      img:typo,
+      title: "Unboxing Complexity: Black Box Networks Demystified",
+      link: "https://medium.com/gdg-vit/unboxing-complexity-black-box-networks-demystified-64c170067927",
+      description: "Explore the depths of Blackbox Networks and Explainable AI in this blog, unraveling the mysteries of complex algorithms and demystifying the inner workings of artificial intelligence for a clearer understanding."
+    },
+  ];
 
 export const CONTACT = {
   address: "Bengaluru, India ",

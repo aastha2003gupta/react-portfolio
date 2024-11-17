@@ -5,7 +5,7 @@ import Technologies from "./components/Technologies";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-
+import Blogs from "./components/Blogs";
 const App = () => {
   return (
     // Updated background with black-centered gradient
@@ -19,6 +19,7 @@ const App = () => {
           <Technologies />
           <Experience />
           <Projects />
+          <Blogs/>
           <Contact />
         </div>
       </div>

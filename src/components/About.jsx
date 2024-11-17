@@ -12,9 +12,9 @@ const About = () => {
             whileInView={{opacity:1,x:0}}
             initial={{opacity:0,x:-100}}
             transition={{duration:0.5}} 
-            className="w-full lg:w-1/2 lg:p-8">
+            className="w-full lg:w-1/2 ">
               <div className="flex items-center justify-center">
-                {/*<img src={} alt="about"/>*/}
+                <img src="src\assets\profile\about.svg" alt="about" className="w-64 h-auto max-w-full"/>
               </div>
             </motion.div>
             <motion.div
@@ -23,7 +23,7 @@ const About = () => {
             transition={{duration:0.5}}
              className="w-full lg:w-1/2">
                 <div className="flex justify-center lg:justify-start">
-                    <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
+                    <p className="my-2 max-w-xl py-2">{ABOUT_TEXT}</p>
                 </div>
               </motion.div>
         </div>

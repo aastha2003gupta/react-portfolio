@@ -10,7 +10,7 @@ const Projects = () => {
   const visibleProjects = showAll ? PROJECTS : PROJECTS.slice(0, 6);
 
   return (
-    <div className="border-b border-neutral-900 pb-16">
+    <div className="border-b border-neutral-950 pb-8">
       <motion.h1
        whileInView={{opacity:1,y:0}}
        initial={{opacity:0,y:-100}}
@@ -34,10 +34,10 @@ const Projects = () => {
             style={{
               height: "450px",
               maxWidth: "300px",
-              background: "rgba(0, 0, 0, 0.4)", // Semi-transparent background
+              background: "rgba(0, 0, 0, 0.2)", // Semi-transparent background
               backdropFilter: "blur(10px)", // Blur effect
               WebkitBackdropFilter: "blur(10px)", // Safari support
-              border: "1px solid rgba(255, 250, 250, 0.1)", // Light border for glass effect
+              border: "1px solid rgba(250, 255, 255, 0.1)", // Light border for glass effect
             }}
           >
             {/* Project Image */}
