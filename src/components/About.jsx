@@ -1,5 +1,6 @@
 import { ABOUT_TEXT } from "../constants"
 import { motion } from "framer-motion"
+import about from '../assets/profile/about.svg';
 const About = () => {
   return (
     <div className="border-b border-neutral-900 pb-8">
@@ -14,7 +15,7 @@ const About = () => {
             transition={{duration:0.5}} 
             className="w-full lg:w-1/2 ">
               <div className="flex items-center justify-center">
-                <img src="src/assets/profile/about.svg" alt="about" className="w-64 h-auto max-w-full"/>
+                <img src={about} alt="about" className="w-64 h-auto max-w-full"/>
               </div>
             </motion.div>
             <motion.div
